@@ -99,4 +99,8 @@ p {
 #pink {
   color: pink; }
 
+#sale {
+  width: 400px;
+  justify-content: center; }
+
 /*# sourceMappingURL=styles.css.map */
