@@ -26,7 +26,15 @@ h1 {
   margin: 2%; }
 
 h2 {
-  text-align: center; }
+  text-align: center;
+  font-family: 'Dosis', sans-serif; }
+
+form {
+  float: right; }
+
+input {
+  padding: 3%;
+  border: 1px solid black; }
 
 nav {
   float: right;
