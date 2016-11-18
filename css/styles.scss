@@ -17,7 +17,7 @@ button {
   border: 1px solid black;
   padding: 2%;
   display: block;
-  margin: 20% auto;
+  margin: 10% auto;
 }
 
 header {
@@ -28,6 +28,10 @@ header {
 h1 {
   float: left;
   margin: 2%;
+}
+
+h2 {
+  text-align: center;
 }
 
 nav {
@@ -79,6 +83,11 @@ p {
   margin-top: 3%;
 }
 
+.gallery {
+  height: 600px;
+  margin: 13%;
+}
+
 .images {
   width: 100%;
   background-color: white;
@@ -127,6 +136,25 @@ p {
   margin: 3%;
   font-size: 2.4em;
   font-family: 'Dosis', sans-serif;
+}
+
+#carousel {
+		width: 480px;
+		overflow:hidden;
+}
+
+#carousel ul {
+	width: 1920px;
+	padding: 0;
+	margin: 0;
+}
+
+#carousel ul li {
+	width:480px;
+	text-align: center;
+	height: 280px;
+	list-style: none;
+	float:	left;
 }
 
 #black {
