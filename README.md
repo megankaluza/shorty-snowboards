@@ -1,19 +1,19 @@
-# _Name_
+# _Megan Kaluza_
 
-#### _Project: functions for Epicodus, Date:_
+#### _Solo Project: Shorty Snowboards for Epicodus, Date: 11-18-16_
 
 #### By _**Megan Kaluza**_
 
 ## Description
 
-_This webpage displays a form with bootstrap, divs, checkboxes, ids, classes, jQuery, JavaScript, functions, and CSS that initiate a survey to decide which remaining classes to take at Epicodus. My HTML and .js pages include comments to organize and continue building my webpage_
+_This webpage displays a HTML, CSS, and SASS._
 
 ## Setup/Installation Requirements
 
-* _Clone this repository_
+* _Clone this repository https://github.com/megankaluza/snowboard_sales.git_
 * _gem install sass_
 * _sass styles.scss_
-* _sass watch ._
+* _sass --watch ._
 
 ## Known Bugs
 
@@ -21,11 +21,13 @@ _No known bugs at this time_
 
 ## Support and contact details
 
+_megan.kaluza@gmail.com_
+
 ## Technologies Used
 
 _HTML_
 _CSS_
-_Bootstrap_
+_SASS_
 _Google Fonts_
 _jQuery_
 _JavaScript_
