@@ -20,6 +20,10 @@ button {
   margin: 10% auto;
 }
 
+button:hover {
+  background-color: $pink;
+}
+
 header {
   background-color: white;
   height: 90px;
