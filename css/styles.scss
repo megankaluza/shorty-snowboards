@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis|Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Yellowtail|Audiowide');
 
 $pink: pink;
 
@@ -32,6 +32,7 @@ header {
 h1 {
   float: left;
   margin: 2%;
+  font-family: 'Audiowide', cursive;
 }
 
 h2 {
@@ -46,6 +47,10 @@ form {
 input {
   padding: 3%;
   border: 1px solid black;
+}
+
+input:focus {
+  color: $pink;
 }
 
 nav {
@@ -83,6 +88,14 @@ p {
   width: 100%;
   background-color: black;
   height: 600px;
+}
+
+.features {
+  width: 150px;
+  margin: 2% auto;
+  padding: 1%;
+  border: 1px solid white;
+  display: block;
 }
 
 .footer {
@@ -125,17 +138,22 @@ p {
   width: 40%;
   float: right;
   color: white;
-  margin: 8%;
-  padding: 2%;
+  margin: 5%;
+  padding: 1%;
   border: 1px solid white;
 }
 
 .rightCol h1 {
-  margin-top: 3%;
+  margin-top: 1%;
 }
 
 .rightCol p {
-  margin-top: 15%;
+  margin-top: 5%;
+}
+
+.rightCol li {
+  list-style-type: none;
+  text-align: center;
 }
 
 .shop {
@@ -183,5 +201,4 @@ p {
   width: 400px;
   display: block;
   margin: 0 auto;
-
 }
