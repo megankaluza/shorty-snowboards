@@ -93,7 +93,7 @@ p {
   width: 100%;
   background-color: #FFF;
   height: 900px;
-  margin-top: 3%;
+  margin-top: 2%;
   display: flex; }
 
 .leftCol {
@@ -144,7 +144,7 @@ p {
   width: 10%; }
 
 #carousel {
-  width: 600px;
+  width: 640px;
   overflow: hidden;
   border: 2px double #FFF;
   box-shadow: 2px 2px 10px #FFF; }
@@ -155,9 +155,9 @@ p {
   margin: 0; }
 
 #carousel ul li {
-  width: 600px;
+  width: 640px;
   text-align: center;
-  height: 360px;
+  height: 370px;
   list-style: none;
   float: left; }
 

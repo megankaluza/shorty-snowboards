@@ -6,7 +6,7 @@
 
 ## Description
 
-_This webpage displays a HTML, CSS, and SASS._
+_This webpage displays HTML, CSS, SASS, and jQuery._
 
 ## Setup/Installation Requirements
 
