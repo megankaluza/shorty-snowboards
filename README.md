@@ -27,12 +27,12 @@ _megan.kaluza@gmail.com_
 
 ## Technologies Used
 
-_HTML_
-_CSS_
-_SASS_
-_Google Fonts_
-_jQuery_
-_JavaScript_
+* _HTML_
+* _CSS_
+* _SASS_
+* _Google Fonts_
+* _jQuery_
+* _JavaScript_
 
 ### License
 
