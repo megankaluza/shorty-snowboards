@@ -10,9 +10,11 @@ _This webpage displays HTML, CSS, SASS, and jQuery._
 
 ## Setup/Installation Requirements
 
-* _Clone this repository https://github.com/megankaluza/snowboard_sales.git_
+* _Clone this repository https://github.com/megankaluza/shorty-snowboards.git_
+* _Open in browser of your choice_
+
+* _Install Sass_
 * _gem install sass_
-* _sass styles.scss_
 * _sass --watch ._
 
 ## Known Bugs
