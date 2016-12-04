@@ -8,7 +8,7 @@
 
 ![screenshot](screen_shot.png)
 
-_It must include:_
+_Objectives:_
 
 * _At least one centered element_
 
@@ -37,7 +37,8 @@ _It must include:_
 * _Clone this repository https://github.com/megankaluza/shorty-snowboards.git_
 * _Open in browser of your choice_
 
-* _Install Sass_
+_Install Sass_
+
 * _gem install sass_
 * _sass --watch ._
 
