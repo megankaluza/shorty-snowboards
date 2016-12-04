@@ -10,23 +10,23 @@
 
 _Objectives:_
 
-* _At least one centered element_
+* _At least one centered element._
 
-* _A list or summary of features (lorem ipsum is fine)_
+* _A list or summary of features (lorem ipsum is fine)._
 
-* _At least one large image with an absolutely positioned caption_
+* _At least one large image with an absolutely positioned caption._
 
-* _At least one table or form field styled with CSS (e.g. sizing chart, color options, order form…)_
+* _At least one table or form field styled with CSS (e.g. sizing chart, color options, order form…)._
 
-* _A gallery of smaller images (e.g. similar products...)_
+* _A gallery of smaller images (e.g. similar products...)._
 
-* _Use of at least one pseudo class and one pseudo element_
+* _Use of at least one pseudo class and one pseudo element._
 
-* _Use of at least 3 different types of selectors_
+* _Use of at least 3 different types of selectors._
 
-* _Appropriate elements are positioned using absolute & relative positioning_
+* _Appropriate elements are positioned using absolute & relative positioning._
 
-* _Gallery images make use of the float property_
+* _Gallery images make use of the float property._
 
 * _Elements use box-sizing: border-box;_
 
