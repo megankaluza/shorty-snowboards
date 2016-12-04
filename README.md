@@ -6,6 +6,8 @@
 
 ## Description
 
+![screenshot](screen_shot.png)
+
 _This webpage displays HTML, CSS, SASS, and jQuery._
 
 ## Setup/Installation Requirements
