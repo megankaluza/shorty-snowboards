@@ -34,6 +34,7 @@ _Objectives:_
 
 ## Setup/Installation Requirements
 
+* _Check out the GitHub Pages: https://megankaluza.github.io/shorty-snowboards_
 * _Clone this repository https://github.com/megankaluza/shorty-snowboards.git_
 * _Open in browser of your choice_
 
