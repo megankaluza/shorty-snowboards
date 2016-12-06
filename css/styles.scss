@@ -33,6 +33,11 @@ h1 {
   font-family: 'Audiowide', cursive;
 }
 
+h2::first-letter {
+  color: $pink;
+  font-size: xx-large;
+}
+
 h2 {
   text-align: center;
   font-family: 'Dosis', sans-serif;
@@ -48,6 +53,7 @@ input {
 }
 
 input:focus {
+  background-color: $black;
   color: $pink;
 }
 
@@ -165,6 +171,18 @@ p {
   a:hover {
     color: $black;
   }
+}
+
+.snow {
+  position: absolute;
+  top: 800px;
+}
+
+.snowSmall {
+  position: absolute;
+  width: 100px;
+  top: 830px;
+  left: 200px;
 }
 
 .white {
