@@ -13,9 +13,8 @@ button {
   padding: 2%;
   display: block;
   margin: 10% auto; }
-
-button:hover {
-  background-color: #FFC0CB; }
+  button:hover {
+    background-color: #FFC0CB; }
 
 header {
   background-color: #FFF;
@@ -40,10 +39,9 @@ form {
 input {
   padding: 3%;
   border: 1px solid #000; }
-
-input:focus {
-  background-color: #000;
-  color: #FFC0CB; }
+  input:focus {
+    background-color: #000;
+    color: #FFC0CB; }
 
 nav {
   float: right;
@@ -52,9 +50,8 @@ nav {
     text-decoration: none;
     color: #000;
     font-family: 'Dosis', sans-serif; }
-
-a:hover {
-  color: #FFC0CB; }
+    nav a:hover {
+      color: #FFC0CB; }
 
 p {
   font-family: 'Dosis', sans-serif; }
@@ -69,7 +66,7 @@ p {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1900px; }
+  width: 1400px; }
 
 .display {
   width: 100%;
@@ -142,13 +139,14 @@ p {
 
 .snow {
   position: absolute;
-  top: 800px; }
+  top: 800px;
+  width: 120px; }
 
 .snowSmall {
+  left: 200px;
   position: absolute;
-  width: 100px;
   top: 830px;
-  left: 200px; }
+  width: 100px; }
 
 .white {
   display: block;

@@ -1,4 +1,4 @@
-@import "_reset.scss";
+@import "reset";
 
 @import url('https://fonts.googleapis.com/css?family=Dosis|Yellowtail|Audiowide');
 
@@ -16,11 +16,10 @@ button {
   padding: 2%;
   display: block;
   margin: 10% auto;
-}
-
-button:hover {
-  background-color: $pink;
-}
+    &:hover {
+      background-color: $pink;
+    }
+  }
 
 header {
   background-color: $white;
@@ -50,12 +49,11 @@ form {
 input {
   padding: 3%;
   border: 1px solid $black;
-}
-
-input:focus {
-  background-color: $black;
-  color: $pink;
-}
+    &:focus {
+      background-color: $black;
+      color: $pink;
+    }
+  }
 
 nav {
   float: right;
@@ -64,11 +62,10 @@ nav {
     text-decoration: none;
     color: $black;
     font-family: 'Dosis', sans-serif;
+      &:hover {
+        color: $pink;
+      }
   }
-}
-
-a:hover {
-  color: $pink;
 }
 
 p {
@@ -86,7 +83,7 @@ p {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1900px;
+  width: 1400px;
 }
 
 .display {
@@ -176,13 +173,14 @@ p {
 .snow {
   position: absolute;
   top: 800px;
+  width: 120px;
 }
 
 .snowSmall {
-  position: absolute;
-  width: 100px;
-  top: 830px;
   left: 200px;
+  position: absolute;
+  top: 830px;
+  width: 100px;
 }
 
 .white {

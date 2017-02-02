@@ -6,7 +6,7 @@
 
 ## Description
 
-![screenshot](screen_shot.png)
+![screenshot](img/screen_shot.png)
 
 _Objectives:_
 
