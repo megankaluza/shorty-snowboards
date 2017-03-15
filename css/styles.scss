@@ -1,10 +1,7 @@
-@import "reset";
-
+//Fonts
 @import url('https://fonts.googleapis.com/css?family=Dosis|Yellowtail|Audiowide');
-
-$pink: #FFC0CB;
-$white: #FFF;
-$black: #000;
+// Sass Components
+@import "base/index";
 
 body {
   background-color: $pink;
