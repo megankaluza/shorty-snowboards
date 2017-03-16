@@ -13,10 +13,10 @@ button {
   padding: 2%;
   display: block;
   margin: 10% auto;
-    &:hover {
-      background-color: $pink;
-    }
+  &:hover {
+    background-color: $pink;
   }
+}
 
 header {
   background-color: $white;
@@ -26,7 +26,7 @@ header {
 h1 {
   float: left;
   margin: 2%;
-  font-family: 'Audiowide', cursive;
+  font-family: $stack-audio;
 }
 
 h2::first-letter {
@@ -36,7 +36,7 @@ h2::first-letter {
 
 h2 {
   text-align: center;
-  font-family: 'Dosis', sans-serif;
+  font-family: $stack-dosis;
 }
 
 form {
@@ -46,11 +46,11 @@ form {
 input {
   padding: 3%;
   border: 1px solid $black;
-    &:focus {
-      background-color: $black;
-      color: $pink;
-    }
+  &:focus {
+    background-color: $black;
+    color: $pink;
   }
+}
 
 nav {
   float: right;
@@ -58,15 +58,15 @@ nav {
   a {
     text-decoration: none;
     color: $black;
-    font-family: 'Dosis', sans-serif;
-      &:hover {
-        color: $pink;
-      }
+    font-family: $stack-dosis;
+    &:hover {
+      color: $pink;
+    }
   }
 }
 
 p {
-  font-family: 'Dosis', sans-serif;
+  font-family: $stack-dosis;
 }
 
 .border {
@@ -86,27 +86,19 @@ p {
 .display {
   width: 100%;
   background-color: $black;
-  height: 600px;
-}
-
-.features {
-  width: 150px;
-  margin: 2% auto;
-  padding: 1%;
-  border: 1px solid $white;
-  display: block;
-  box-shadow: 2px 2px 10px $white;
+  height: 35em;
+  display: flex;
 }
 
 .footer {
   height: 200px;
   background-color: $black;
   padding: 2%;
-    h3 {
-      text-align: center;
-      color: white;
-      font-family: 'Dosis', sans-serif;
-    }
+  h3 {
+    text-align: center;
+    color: white;
+    font-family: $stack-dosis;
+  }
 }
 
 .gallery {
@@ -117,13 +109,14 @@ p {
 .images {
   width: 100%;
   background-color: $white;
-  height: 600px;
+  margin-top: 8.5em;
+  height: 60%;
   display: flex;
 }
 
 .leftCol {
-  width: 40%;
-  float: left;
+  width: 50%;
+  // float: left;
 }
 
 .logo {
@@ -132,35 +125,33 @@ p {
 }
 
 .rightCol {
-  width: 40%;
-  float: right;
+  width: 30%;
+  // float: right;
   color: $white;
-  margin: 3% 6%;
+  margin: 5% 0 20% 10%;
   padding: 1%;
-  border: 1px solid $white;
-  box-shadow: 2px 2px 10px $white;
-    h1 {
-      margin-top: 1%;
-    }
-    li {
-      list-style-type: none;
-      text-align: center;
-    }
-    p {
-      margin-top: 5%;
-    }
+  h1 {
+    margin-top: 1%;
+  }
+  li {
+    list-style-type: none;
+    text-align: center;
+  }
+  p {
+    margin-top: 5%;
+  }
 }
 
 .shop {
   text-align: center;
   margin: 2%;
-  font-family: 'Dosis', sans-serif;
+  font-family: $stack-dosis;
   a {
     text-decoration: none;
     color: $white;
     margin: 3%;
     font-size: 2.4em;
-    font-family: 'Dosis', sans-serif;
+    font-family: $stack-dosis;
   }
   a:hover {
     color: $black;
@@ -169,14 +160,14 @@ p {
 
 .snow {
   position: absolute;
-  top: 800px;
+  top: 750px;
   width: 120px;
 }
 
 .snowSmall {
   left: 200px;
   position: absolute;
-  top: 830px;
+  top: 790px;
   width: 100px;
 }
 
@@ -187,8 +178,8 @@ p {
 }
 
 #carousel {
-	width: 640px;
-	overflow: hidden;
+  width: 640px;
+  overflow: hidden;
   border: 2px double $white;
   box-shadow: 2px 2px 10px $white;
   ul {
@@ -197,11 +188,11 @@ p {
     margin: 0;
   }
   ul li {
-  	width: 640px;
-  	text-align: center;
-  	height: 370px;
-  	list-style: none;
-  	float:	left;
+    width: 640px;
+    text-align: center;
+    height: 370px;
+    list-style: none;
+    float:	left;
   }
 }
 
@@ -216,4 +207,49 @@ p {
 #sale {
   display: block;
   margin: 0 auto;
+}
+
+@media only screen
+and (max-width: 750px) {
+  form {
+    float: left;
+  }
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+  }
+
+  .display {
+    display: block;
+    background: $pink;
+  }
+
+  .images {
+    background-color: $white;
+    display: block;
+    margin-top: 10.5em;
+    width: 100%;
+  }
+
+  .leftCol {
+    width: 40%;
+  }
+
+  .rightCol {
+    background: $black;
+    padding: 1em;
+    position: absolute;
+    top: 560px;
+    width: 500px;
+  }
+
+  .snow {
+    display: none;
+  }
+
+  .snowSmall {
+    display: none;
+  }
 }
